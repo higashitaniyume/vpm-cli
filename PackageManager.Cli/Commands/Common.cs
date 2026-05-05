@@ -7,6 +7,6 @@ public class ApiSettings : CommandSettings
 {
     [CommandOption("-u|--url <URL>")]
     [Description("The base URL of the package manager API.")]
-    [DefaultValue("http://localhost:8787/api")]
-    public string ApiUrl { get; set; } = "http://localhost:8787/api";
+    [DefaultValue("https://api.vpm.vlnc.top/api")]
+    public string ApiUrl { get; set; } = "https://api.vpm.vlnc.top/api";
 }
